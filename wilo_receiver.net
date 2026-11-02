@@ -1,0 +1,2289 @@
+(export 
+  (version "D")
+  (design
+    (source "generate_wilo_pcb.py")
+    (date "11/02/2026 07:52 PM")
+    (tool "SKiDL (3.0.0)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "..\generate_wilo_pcb.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "C1")
+      (value "10uF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "4EeiWTveXl")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "363d101c-1725-59d2-9a3e-5a6765d45996"))
+    (comp
+      (ref "C2")
+      (value "22uF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "A0C9euglGX")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "eab60349-3de2-5820-afcd-6fb0d05c8c61"))
+    (comp
+      (ref "C_ACS")
+      (value "0.1uF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "MAe1IQZkmm")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f8628115-84b6-503f-b447-889a06f1c2f3"))
+    (comp
+      (ref "C_ADS")
+      (value "100nF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "gtjTiUjW72")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "60ebacbe-9555-54ca-9b2a-97769a8abb1d"))
+    (comp
+      (ref "C_BIAS")
+      (value "10uF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "sSuVTF0FSK")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "39197bcc-2677-596c-824f-34caf879dd99"))
+    (comp
+      (ref "C_F")
+      (value "4.7nF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "FtwAWUn77_")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "d2cc88a8-13b4-5e60-a121-e4bb0016728e"))
+    (comp
+      (ref "C_LORA1")
+      (value "10uF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "e0okCwfRIn")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "CP"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "30eeda90-502d-53a4-a788-c061b5d21d62"))
+    (comp
+      (ref "C_LORA2")
+      (value "0.1uF")
+      (description "")
+      (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "B7kMZ52lee")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f9fc9f47-a797-593e-b01e-79106bc9aa13"))
+    (comp
+      (ref "C_SNUB1")
+      (value "0.1uF_630V_X2")
+      (description "")
+      (footprint "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "t8_W9qzquX")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "19492e9b-dbc6-5ad3-9578-d8dd5a90c0fa"))
+    (comp
+      (ref "D2")
+      (value "1N4007")
+      (description "")
+      (footprint "Diode_SMD:D_SMA")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Diode_SMD:D_SMA")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "JiLbT5lrdx")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "1N4007"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "874457f8-c33c-54ed-9222-6ac23377861f"))
+    (comp
+      (ref "D3")
+      (value "1N4007")
+      (description "")
+      (footprint "Diode_SMD:D_SMA")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Diode_SMD:D_SMA")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "oKeqvsffyi")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "1N4007"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "adce807d-eacf-5f23-88fc-9e1cbc25e49d"))
+    (comp
+      (ref "J1")
+      (value "RPi_Zero_2W_Header")
+      (description "")
+      (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Cy6gN_rRTY")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Conn_02x20_Odd_Even"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "904309c0-7718-5dc2-bd29-8ac03089e09a"))
+    (comp
+      (ref "J_CT")
+      (value "SCT013_CT_Jack")
+      (description "")
+      (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "WCMfuq92a9")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "AudioJack3"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "ce5806d9-79cc-58f9-b269-16ab44dc2d9a"))
+    (comp
+      (ref "J_SMA")
+      (value "SMA_50_Ohm")
+      (description "")
+      (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "zVytMm8_95")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SMA_Connector"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6a20edf0-07d9-5d3a-a8e1-f3e645301f2d"))
+    (comp
+      (ref "J_USBC")
+      (value "USB_C_5V_IN")
+      (description "")
+      (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "AuFnZMf5Ok")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "USB_C_Receptacle_USB2.0_16P"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "aa876052-121b-5fd9-a1d1-071ad5e0ddbd"))
+    (comp
+      (ref "K1")
+      (value "Songle_5V_10A")
+      (description "")
+      (footprint "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "EC7YCSsadK")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SRD-05VDC-SL-C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "1cd9676b-d322-585f-b172-d311a778ba3f"))
+    (comp
+      (ref "K2")
+      (value "Songle_5V_10A")
+      (description "")
+      (footprint "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "6g13SyKPxi")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SRD-05VDC-SL-C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7b54a730-dd0f-559c-b9c4-40620dc6ef55"))
+    (comp
+      (ref "LED_3V3")
+      (value "Blue_3V3_LoRa")
+      (description "")
+      (footprint "LED_SMD:LED_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "LED_SMD:LED_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "458owNNiKL")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "LED"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6feb664d-dea5-54b8-9ef6-b17abb24de76"))
+    (comp
+      (ref "LED_5V")
+      (value "Green_5V_Power")
+      (description "")
+      (footprint "LED_SMD:LED_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "LED_SMD:LED_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "49RZ87krXL")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "LED"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4a90a0a5-5c84-561c-ab2c-42a9573275af"))
+    (comp
+      (ref "LED_PUMP")
+      (value "Green_Pump_Active")
+      (description "")
+      (footprint "LED_SMD:LED_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "LED_SMD:LED_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "sl_cQe1nPm")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "LED"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "d9088c2c-96d6-59da-805b-722bf368ee62"))
+    (comp
+      (ref "MOV1")
+      (value "14D471K_275VAC")
+      (description "")
+      (footprint "Varistor:RV_Disc_D12mm_W4.2mm_P7.5mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Varistor:RV_Disc_D12mm_W4.2mm_P7.5mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ZYQS0obNT2")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Varistor"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6f37c6c4-ea12-5e1e-a622-0b6c8ed47e1a"))
+    (comp
+      (ref "Q1")
+      (value "2N2222_NPN")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "qS72qMcsbM")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "MMBT3904"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "8cd9c691-5f96-52f8-8eb8-b464c7289086"))
+    (comp
+      (ref "Q2")
+      (value "2N2222_NPN")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "lbjlL2gZbt")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "MMBT3904"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "74df9751-e10e-5cbe-b7cd-991aa2239844"))
+    (comp
+      (ref "R_BIAS1")
+      (value "10k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "2IfC0Ggan_")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "599e08f4-3744-5e2b-a683-7f82680b0fb3"))
+    (comp
+      (ref "R_BIAS2")
+      (value "10k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "1r9vWKSLU5")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "08a1a82f-90df-586d-97dd-6f1106723c0b"))
+    (comp
+      (ref "R_BURDEN")
+      (value "33_Ohm")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "fmXq1RAJ2I")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4d14e222-bc19-5d0e-8b38-273f00330c14"))
+    (comp
+      (ref "R_CC1")
+      (value "5.1k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "WYagElYiWn")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "585515c7-513c-58f6-a4fd-5abaef1098f2"))
+    (comp
+      (ref "R_CC2")
+      (value "5.1k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "EspIk8_ypc")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c7b43be8-8b0c-5184-a707-ec480de7c7c8"))
+    (comp
+      (ref "R_DRV1")
+      (value "1k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "d7HpWcz2CX")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "402c5dfd-f46a-597f-8f12-50b5ee5fa295"))
+    (comp
+      (ref "R_DRV2")
+      (value "1k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "5SMSlyMfy4")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "14b64a32-5a45-57ce-b251-6603315ef567"))
+    (comp
+      (ref "R_HV1")
+      (value "41.2k_1W")
+      (description "")
+      (footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "JpPT1FQkWD")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "27832d13-2383-5267-86c9-2079b12be68f"))
+    (comp
+      (ref "R_HV2")
+      (value "41.2k_1W")
+      (description "")
+      (footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "BCoukGFyg7")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4dfc5b0f-b0d3-5b12-82a0-3aae1710a3de"))
+    (comp
+      (ref "R_LED1")
+      (value "330")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "XYD3wf70iB")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "d8e8ca2b-a9e3-567b-a976-9a08b1166ee7"))
+    (comp
+      (ref "R_LED2")
+      (value "470")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "cQJHzcPeJL")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "65b50b3a-f19b-5581-815c-46ae3eb40b05"))
+    (comp
+      (ref "R_LED3")
+      (value "330")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "uXtfr6MMTB")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c1340f75-0721-56c2-b8d1-69de4076f191"))
+    (comp
+      (ref "R_OPT1")
+      (value "470")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "KD8XIHHLNY")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4ab0e8f3-6a5b-5071-a470-978e2dbf463f"))
+    (comp
+      (ref "R_OPT2")
+      (value "470")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "xWuxb44KWK")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "35515081-b71f-56c1-ac38-6005ba810c17"))
+    (comp
+      (ref "R_PD1")
+      (value "10k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "gjVRGLHHJF")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "b7d030e8-bd61-5bb3-8f8b-2866ed669c15"))
+    (comp
+      (ref "R_PD2")
+      (value "10k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "wYjJGwo1u9")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0b37cb8a-00a1-5f68-89c3-99476e5e423b"))
+    (comp
+      (ref "R_PU1")
+      (value "4.7k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "qui1ytN5hJ")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "aaa29c9e-d7d8-5d21-a4f4-53a354ec7afe"))
+    (comp
+      (ref "R_PU2")
+      (value "4.7k")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "YIxQEbTMoa")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7897d2b4-18f9-537e-9499-b28d0d41d337"))
+    (comp
+      (ref "R_SNUB1")
+      (value "100_1W")
+      (description "")
+      (footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "5TENtUm9VZ")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "38b3aaa8-a683-5a33-a02f-b7b6dd8b6ea6"))
+    (comp
+      (ref "SW1")
+      (value "Force_ON")
+      (description "")
+      (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Button_Switch_THT:SW_PUSH_6mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "wvKsctwgFD")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "029279bd-ddda-5837-8403-1b0289bbe263"))
+    (comp
+      (ref "SW2")
+      (value "Force_OFF")
+      (description "")
+      (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Button_Switch_THT:SW_PUSH_6mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "rsz1V5Rd1k")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "33d5eeaf-006b-5394-a8ad-b3ef13d754a6"))
+    (comp
+      (ref "T1")
+      (value "ZMPT101B_Transformer")
+      (description "")
+      (footprint "Transformer_THT:Transformer_Zeming_ZMPT101K")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Transformer_THT:Transformer_Zeming_ZMPT101K")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "xZ2WJzt9Ak")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "ZMPT101B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0b97506c-2a68-5c6a-87a0-8aa38fc00088"))
+    (comp
+      (ref "TB2")
+      (value "AC_VOLT_SENSE_IN")
+      (description "")
+      (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ouUZhqKjSZ")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Screw_Terminal_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "210aeba1-7697-5b10-8748-ea77781aea28"))
+    (comp
+      (ref "TB3")
+      (value "LOAD_ACTUATORS_OUT")
+      (description "")
+      (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "VIqq6g_ptK")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Screw_Terminal_01x03"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "775aed19-0ca8-5946-a542-9c6d9363156a"))
+    (comp
+      (ref "TB_EXP")
+      (value "ADC_EXP_A2_A3")
+      (description "")
+      (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "0yy2gg7djt")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Screw_Terminal_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "53977155-9229-51cc-93fd-6e77a44f63cb"))
+    (comp
+      (ref "U1")
+      (value "AMS1117-3.3")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "PIo2xrBG30")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "AMS1117-3.3"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "86737b67-3445-5d7d-bc64-abb000efa91b"))
+    (comp
+      (ref "U2")
+      (value "ADS1115")
+      (description "")
+      (footprint "Package_SO:MSOP-10_3x3mm_P0.5mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_SO:MSOP-10_3x3mm_P0.5mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "mLrx9DdVF6")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "ADS1115IDGSR"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "5dcfebb8-acc5-5c06-b766-1fe3256eeb19"))
+    (comp
+      (ref "U3")
+      (value "ACS712T-30A")
+      (description "")
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "r1_a3g7J1t")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "ACS712ELCTR-30A-T"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0f4eb369-fefa-559a-b06a-83cdbd427f56"))
+    (comp
+      (ref "U4")
+      (value "LM358_Conditioner")
+      (description "")
+      (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "8EF7njhs_T")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "LM358"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "540918fa-1321-58b4-8e25-720705ac0784"))
+    (comp
+      (ref "U5")
+      (value "PC817_Pump")
+      (description "")
+      (footprint "Package_DIP:DIP-4_W7.62mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_DIP:DIP-4_W7.62mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "dRTvfpgo2t")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "PC817"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "02e69d8d-b1d5-580b-9466-629fd34cdb18"))
+    (comp
+      (ref "U6")
+      (value "PC817_Aux")
+      (description "")
+      (footprint "Package_DIP:DIP-4_W7.62mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_DIP:DIP-4_W7.62mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ivo55iWk0h")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "PC817"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "3a72207e-084c-5832-9a11-49cbe95be5c1"))
+    (comp
+      (ref "U_LORA")
+      (value "SX1278_433MHz")
+      (description "")
+      (footprint "RF_Module:Ai-Thinker-Ra-01-LoRa")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RF_Module:Ai-Thinker-Ra-01-LoRa")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "fOeR6pFtLw")
+        (field
+          (name "SKiDL Line") "..\circuitron\circuits\wilo_receiver.py:67"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Ra-02_SX1278"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "e9156f88-a79b-54ad-ae05-4227569505cf")))
+  (nets
+    (net
+      (code 1)
+      (name "+3V3_LORA")
+      (class "Default")
+      (node
+        (ref "C2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_LORA1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_LORA2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_LED3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "2")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "U_LORA")
+        (pin "9")
+        (pintype "POWER-IN")))
+    (net
+      (code 2)
+      (name "+3V3_RPI")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "17")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PU1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PU2")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 3)
+      (name "+5V")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_ACS")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_ADS")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J_USBC")
+        (pin "A4")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "A9")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "B4")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "B9")
+        (pintype "POWER-IN"))
+      (node
+        (ref "K1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_BIAS1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_LED2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U2")
+        (pin "8")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U3")
+        (pin "8")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4")
+        (pin "8")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U5")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U6")
+        (pin "4")
+        (pintype "PASSIVE")))
+    (net
+      (code 4)
+      (name "AC_L_IN")
+      (class "Default")
+      (node
+        (ref "K2")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_HV1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TB2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 5)
+      (name "AC_L_PUMP")
+      (class "Default")
+      (node
+        (ref "K1")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "MOV1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_SNUB1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "4")
+        (pintype "PASSIVE")))
+    (net
+      (code 6)
+      (name "AC_N_IN")
+      (class "Default")
+      (node
+        (ref "T1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TB2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TB3")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 7)
+      (name "AC_PUMP_OUT")
+      (class "Default")
+      (node
+        (ref "C_SNUB1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K1")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "MOV1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TB3")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 8)
+      (name "AC_VALVE_OUT")
+      (class "Default")
+      (node
+        (ref "K2")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TB3")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 9)
+      (name "ADC_A0")
+      (class "Default")
+      (node
+        (ref "J_CT")
+        (pin "T")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_BURDEN")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2")
+        (pin "4")
+        (pintype "INPUT"))
+      (node
+        (ref "U3")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 10)
+      (name "ADC_A1")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "5")
+        (pintype "INPUT"))
+      (node
+        (ref "U4")
+        (pin "1")
+        (pintype "OUTPUT")))
+    (net
+      (code 11)
+      (name "ADC_A2")
+      (class "Default")
+      (node
+        (ref "TB_EXP")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2")
+        (pin "6")
+        (pintype "INPUT")))
+    (net
+      (code 12)
+      (name "ADC_A3")
+      (class "Default")
+      (node
+        (ref "TB_EXP")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2")
+        (pin "7")
+        (pintype "INPUT")))
+    (net
+      (code 13)
+      (name "BTN_FORCE_OFF")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "29")
+        (pintype "PASSIVE"))
+      (node
+        (ref "SW2")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 14)
+      (name "BTN_FORCE_ON")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "15")
+        (pintype "PASSIVE"))
+      (node
+        (ref "SW1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 15)
+      (name "CT_BIAS")
+      (class "Default")
+      (node
+        (ref "C_BIAS")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J_CT")
+        (pin "S")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_BIAS1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_BIAS2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_BURDEN")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 16)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_ACS")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_ADS")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_BIAS")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_F")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_LORA1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C_LORA2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "14")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "20")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "25")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "30")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "34")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "39")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "6")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "9")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J_SMA")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "A1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "A12")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "B1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "B12")
+        (pintype "POWER-IN"))
+      (node
+        (ref "J_USBC")
+        (pin "SH")
+        (pintype "POWER-IN"))
+      (node
+        (ref "LED_3V3")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "LED_5V")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "LED_PUMP")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_BIAS2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_CC1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_CC2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PD1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PD2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "SW1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "SW2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "T1")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U2")
+        (pin "1")
+        (pintype "INPUT"))
+      (node
+        (ref "U2")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U3")
+        (pin "5")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4")
+        (pin "3")
+        (pintype "INPUT"))
+      (node
+        (ref "U4")
+        (pin "4")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4")
+        (pin "5")
+        (pintype "INPUT"))
+      (node
+        (ref "U5")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U6")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U_LORA")
+        (pin "16")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U_LORA")
+        (pin "8")
+        (pintype "POWER-IN")))
+    (net
+      (code 17)
+      (name "I2C_SCL")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "5")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PU2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2")
+        (pin "10")
+        (pintype "INPUT")))
+    (net
+      (code 18)
+      (name "I2C_SDA")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PU1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2")
+        (pin "9")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 19)
+      (name "LED_3V3_MID")
+      (class "Default")
+      (node
+        (ref "LED_3V3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_LED3")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 20)
+      (name "LED_5V_MID")
+      (class "Default")
+      (node
+        (ref "LED_5V")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_LED2")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 21)
+      (name "LED_DRIVE")
+      (class "Default")
+      (node
+        (ref "LED_PUMP")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_LED1")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 22)
+      (name "LED_PUMP_RUN")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "31")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_LED1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 23)
+      (name "LORA_DIO0")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "18")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 24)
+      (name "LORA_RST")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "22")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "6")
+        (pintype "INPUT")))
+    (net
+      (code 25)
+      (name "N$1")
+      (class "Default")
+      (node
+        (ref "J_USBC")
+        (pin "A5")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_CC1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 26)
+      (name "N$10")
+      (class "Default")
+      (node
+        (ref "R_DRV2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U6")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 27)
+      (name "N$11")
+      (class "Default")
+      (node
+        (ref "D3")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q2")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 28)
+      (name "N$2")
+      (class "Default")
+      (node
+        (ref "J_USBC")
+        (pin "B5")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_CC2")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 29)
+      (name "N$3")
+      (class "Default")
+      (node
+        (ref "C_F")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "6")
+        (pintype "PASSIVE")))
+    (net
+      (code 30)
+      (name "N$4")
+      (class "Default")
+      (node
+        (ref "R_HV1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_HV2")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 31)
+      (name "N$5")
+      (class "Default")
+      (node
+        (ref "R_HV2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "T1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 32)
+      (name "N$6")
+      (class "Default")
+      (node
+        (ref "U4")
+        (pin "6")
+        (pintype "INPUT"))
+      (node
+        (ref "U4")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 33)
+      (name "N$7")
+      (class "Default")
+      (node
+        (ref "T1")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4")
+        (pin "2")
+        (pintype "INPUT")))
+    (net
+      (code 34)
+      (name "N$8")
+      (class "Default")
+      (node
+        (ref "R_DRV1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 35)
+      (name "N$9")
+      (class "Default")
+      (node
+        (ref "D2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q1")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 36)
+      (name "OPT1_IN")
+      (class "Default")
+      (node
+        (ref "R_OPT1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 37)
+      (name "OPT2_IN")
+      (class "Default")
+      (node
+        (ref "R_OPT2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U6")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 38)
+      (name "Q1_BASE")
+      (class "Default")
+      (node
+        (ref "Q1")
+        (pin "1")
+        (pintype "INPUT"))
+      (node
+        (ref "R_DRV1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PD1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 39)
+      (name "Q2_BASE")
+      (class "Default")
+      (node
+        (ref "Q2")
+        (pin "1")
+        (pintype "INPUT"))
+      (node
+        (ref "R_DRV2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_PD2")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 40)
+      (name "RELAY1_CTRL")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "11")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_OPT1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 41)
+      (name "RELAY2_CTRL")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "13")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_OPT2")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 42)
+      (name "RF_ANT")
+      (class "Default")
+      (node
+        (ref "J_SMA")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "15")
+        (pintype "PASSIVE")))
+    (net
+      (code 43)
+      (name "SNUB1_MID")
+      (class "Default")
+      (node
+        (ref "C_SNUB1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R_SNUB1")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 44)
+      (name "SPI0_CE0")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "24")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "13")
+        (pintype "INPUT")))
+    (net
+      (code 45)
+      (name "SPI0_MISO")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "21")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "11")
+        (pintype "OUTPUT")))
+    (net
+      (code 46)
+      (name "SPI0_MOSI")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "19")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "12")
+        (pintype "INPUT")))
+    (net
+      (code 47)
+      (name "SPI0_SCLK")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "23")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_LORA")
+        (pin "10")
+        (pintype "INPUT")))))

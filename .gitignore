@@ -1,0 +1,14 @@
+# KiCad temporary & backup files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+_autosave-*
+*.lck
+*.tmp
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
